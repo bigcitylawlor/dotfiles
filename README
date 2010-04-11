@@ -2,18 +2,24 @@ My dotfiles for zsh, fun times. No bash love, sorry.
 
 ===========================================================
 
-Install like this:
+Change your shell to zsh (all the cool kids are doing it):
+	
+	chsh -s /bin/zsh
 
-git clone git://github.com/tofumatt/dotfiles ~/code/dotfiles
-cd ~/code/dotfiles
-rake install
+===========================================================
+
+Install like this:
+	
+	git clone git://github.com/tofumatt/dotfiles ~/code/dotfiles
+	cd ~/code/dotfiles
+	rake install
 
 ===========================================================
 
 Update like this:
-
-c dotfiles
-git pull origin master
+	
+	c dotfiles
+	git pull origin master
 
 Your gitconfig and localrc will not be touched (they are only
 setup on install).
