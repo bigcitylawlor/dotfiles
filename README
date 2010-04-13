@@ -1,5 +1,14 @@
 My dotfiles for zsh, fun times. No bash love, sorry.
 
+Includes:
+
+  * awesome zsh completion/corrections
+  * handy zsh functions (including git prompt info)
+  * simple zsh aliases for common tasks
+  * gitconfig with sane defaults and GitHub user info
+  * sane global gitignore and gemrc
+  * irbrc and built-in support for rvm
+
 ===========================================================
 
 Change your shell to zsh (all the cool kids are doing it):
