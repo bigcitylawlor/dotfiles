@@ -1,4 +1,5 @@
 My dotfiles for zsh, fun times. No bash love, sorry.
+Install/update with rake install / rake update. Nice.
 
 Includes:
 
@@ -8,6 +9,10 @@ Includes:
   * gitconfig with sane defaults and GitHub user info
   * sane global gitignore and gemrc
   * irbrc and built-in support for rvm
+
+Obviously, you'll need Ruby, Rake, and git to install.
+On most modern UNIX systems this shouldn't be an issue, or
+it should be easy to install.
 
 ===========================================================
 
@@ -28,7 +33,7 @@ Install like this:
 Update like this:
 	
 	c dotfiles
-	git pull origin master
+	rake update
 
 Your gitconfig and localrc will not be touched (they are only
 setup on install).
