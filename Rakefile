@@ -49,21 +49,10 @@ end
 desc "update dotfiles from the origin git repo (if available)"
 task :update do
   if File.exist?(File.join(ENV['PWD'], ".git"))
-    puts 'Dotfiles have git info. Attempting to update via git'
+    puts 'Dotfiles have git info. Attempting to update via git...'
     puts ''
     
-    if system %Q{git pull origin master}
-      puts ''
-      puts "Dotfiles have been updated. You'll want to close any shell windows you had"
-      puts "open for the changes to take effect."
-      puts ''
-      puts "Any system-specific settings you put in ~/.localrc remain, and your"
-      puts ".gitconfig has not been modified. If you made any changes to any other"
-      puts "files, they have not been updated either (this is not encouraged and may"
-      puts "break things)."
-      puts ''
-      puts "Enjoy!"
-    else
+    if !system %Q{git pull origin master}
       puts ''
       puts "Couldn't update dotfiles; see output of git above to determine the cause."
     end
