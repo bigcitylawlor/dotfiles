@@ -9,3 +9,7 @@ alias la='ls -A'
 
 # grep
 alias grep='grep --color=auto'
+
+# su (prevents user's path/shells/etc. getting mixed up with root)
+alias su='su -l'
+
