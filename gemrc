@@ -1,9 +1,9 @@
 --- 
-:verbose: true
-gem: --no-ri --no-rdoc
-:update_sources: true
 :sources: 
 - http://rubygems.org
-:backtrace: false
 :bulk_threshold: 1000
+:verbose: true
 :benchmark: false
+gem: -n/usr/local/bin
+:backtrace: false
+:update_sources: true
