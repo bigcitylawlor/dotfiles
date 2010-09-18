@@ -3,4 +3,5 @@
 Thumbs.db
 *~
 *.tmproj
+*.pyc
 working/
