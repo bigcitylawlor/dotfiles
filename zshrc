@@ -2,8 +2,8 @@
 . ~/.zsh/aliases
 . ~/.zsh/completion
 
-# Load rvm (http://rvm.beginrescueend.com/) if it's available
-if [[ -s ~/.rvm/scripts/rvm ]] ; then source ~/.rvm/scripts/rvm ; fi
+# Load rvm if it's available
+[[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
 
 # Use .localrc for system-specific settings
 [[ -f ~/.localrc ]] && .  ~/.localrc
