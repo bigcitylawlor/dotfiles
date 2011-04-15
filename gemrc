@@ -4,6 +4,6 @@
 :bulk_threshold: 1000
 :verbose: true
 :benchmark: false
-gem: -n/usr/local/bin
+gem: -n/usr/local/bin --no-ri --no-rdoc --no-doc
 :backtrace: false
 :update_sources: true
