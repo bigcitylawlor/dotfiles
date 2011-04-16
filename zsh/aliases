@@ -13,3 +13,5 @@ alias grep='grep --color=auto'
 # su (prevents user's path/shells/etc. getting mixed up with root)
 alias su='su -l'
 
+# Django alias; I hate doing python manage.py and chmod'ing manage.py
+alias manage.py="python manage.py"
